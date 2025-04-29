@@ -22,8 +22,8 @@ function JobDescription() {
         maxRows={20}
         placeholder="Enter the job description here"
         style={{
-          width: '100%',
-          height: '137px',
+          width: '300px',
+          height: '130px',
           padding: '8px',
           borderRadius: '4px',
           border: '1px solid #ccc',

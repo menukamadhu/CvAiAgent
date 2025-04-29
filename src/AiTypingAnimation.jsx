@@ -1,21 +1,15 @@
-import React, { useState } from 'react';
-import Lottie from 'react-lottie';
+// src/AiTypingAnimation.jsx
+import React from 'react';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 function AiTypingAnimation() {
-  const [animationData] = useState(null);
-
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
-    },
-  };
-
   return (
-    <div style={{ position: 'absolute', right: 10, bottom: 50 }}>
-      <Lottie options={defaultOptions} height={150} width={150} />
+    <div style={{ width: 500, height: 500 }}>
+      <DotLottieReact
+        src="https://lottie.host/aa2000ab-d842-4200-87b3-207dae908316/Fx31ODRXO7.lottie"
+        loop
+        autoplay
+      />
     </div>
   );
 }
